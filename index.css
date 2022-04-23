@@ -430,19 +430,19 @@ body {
     margin: 0 24px 80px 24px;
   }
   .place__title {
-    font-size: 42px;
+    font-size: 2rem;
     line-height: 46px;
   }
   .place__website_url-headin {
-    font-size: 12px;
+    font-size: 1rem;
     line-height: 12px;
   }
   .website__link {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.3rem;
   }
   .place__paragraph {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 26px;
   }
   .cover {
@@ -454,7 +454,7 @@ body {
   }
   .cover__title {
     width: 73%;
-    font-size: 72px;
+    font-size: 4rem;
     line-height: 76px;
     margin: 115px auto 32px;
   }
