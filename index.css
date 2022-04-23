@@ -288,7 +288,6 @@ body {
   line-height: 18px;
   color: #fff;
   width: 150%;
-  margin-left: 14%;
 }
 .footer__copyright {
   font-family: 'Inter';
@@ -297,7 +296,6 @@ body {
   line-height: 14px;
   color: #fff;
   align-self: end;
-  margin-right: 5%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -479,7 +477,7 @@ body {
 
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .photo-grid {
     width: 90%;
     grid-template-columns: repeat(1, 100%);
@@ -487,35 +485,36 @@ body {
     margin: 64px auto 64px;
   }
   .lead__title {
-    width: 288px;
-    font-size: 40px;
+    width: 90%;
+    font-size: 2rem;
     line-height: 44px;
   }
   .lead__subtitle{
-    width: 288px;
+    width: 90%;
     font-size: 16px;
     line-height: 20px;
   }
   .lead__image {
-    width: 320px;
+    width: 100%;
   }
   .lead__image_cap {
     margin-left: 16px;
+    width: 90%;
   }
   .intro__title {
-    width: 288px;
+   width: 90%;
     font-size: 32px;
     line-height: 35px;
     margin: 65px 0 40px 16px;
   }
   .intro__text {
-    width: 288px;
+   width: 90%;
     font-size: 16px;
     line-height: 26px;
     margin: 0 0 35px 16px;
   }
   .intro__list {
-    width: 288px;
+   width: 90%;
     font-size: 12px;
     line-height: 18px;
     margin: 0 0 0 16px;
@@ -528,7 +527,7 @@ body {
     margin: 0 auto 80px;
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: 3.5% 4.5% 31% 61%;
+    grid-template-rows: 3.5% 4.5% 10% 61%;
     grid-template-areas: 
     "title"
     "website"
@@ -606,13 +605,13 @@ body {
   }
   .cover__title {
     margin: 33px auto 16px;
-    width: 228px;
+    width: 90%;
     font-size: 32px;
     line-height: 35px;
   }
   .cover__subtitle {
     margin: 0;
-    width: 288px;
+    width: 90%;
     font-size: 14px;
     line-height: 16px;
   }
