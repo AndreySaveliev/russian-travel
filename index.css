@@ -128,7 +128,7 @@ body {
   font-size: 2rem;
   line-height: 2rem;
   color: #fff;
-  margin: 100px 148px 0;
+  margin: 100px 0 0 148px;
 }
 .intro__text {
   width: 690px;
@@ -137,7 +137,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #fff;
-  margin: 40px 148px 0;
+  margin: 40px 0 0 148px;
 }
 .intro__list {
   width: 690px;
@@ -148,7 +148,7 @@ body {
   line-height: 18px;
   color: #fff;
   padding: 0;
-  margin: 33px 148px 0;
+  margin: 33px 0 0 148px;
 }
 .photo-grid {
   display: grid;
@@ -272,8 +272,8 @@ body {
 .footer {
   display: flex;
   flex-direction: row;
-  width: 90%;
-  margin: 100px auto 0;
+  width: 100%;
+  margin: 100px 0 0 0;
   justify-content: space-between;
 }
 .footer__menu {
@@ -288,14 +288,16 @@ body {
   line-height: 18px;
   color: #fff;
   width: 150%;
+  margin-left: 14%;
 }
 .footer__copyright {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 14px;
   color: #fff;
   align-self: end;
+  margin-right: 5%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -333,19 +335,19 @@ body {
     width: 176px;
   }
   .lead__image {
-    width: 928px;
+    width: 100%;
     margin: 0 auto;
   }
   .lead__image_cap {
-    width: 928px;
-    margin: 8px auto;
+    width: 90%;
+    margin: 8px 0 0 24px;
   }
   .places {
     margin: 0 0 100px 0;
   }
   .place{
     display: grid;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 45% 55%;
     /* grid-template-rows: 500px; */
     gap: 32px;
     margin: 0 48px 80px;
@@ -354,8 +356,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    width: 1024px;
-    height: 640px;
+    width: 100%;
     background-image: url(./images/cover-trains.jpg);
     background-size: cover;
     position: relative;
@@ -419,13 +420,13 @@ body {
   }
   .place{
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 45% 48%;
     /* grid-template-rows: 500px; */
     grid-template-areas: 
     "title website"
     "image paragraph"
     ". paragraph-bottom";
-    gap: 28px;
+    gap: 48px;
     margin: 0 24px 80px 24px;
   }
   .place__title {
@@ -436,7 +437,7 @@ body {
     font-size: 12px;
     line-height: 12px;
   }
-  .place__website_link {
+  .website__link {
     font-size: 1rem;
     line-height: 1.3rem;
   }
@@ -462,8 +463,20 @@ body {
     font-size: 18px;
     line-height: 22px;
   }
-  .footer__menu {
+  .footer {
     flex-direction: column;
+  }
+  .footer__menu {
+    width: 50%;
+    margin-left: 5%;
+    flex-direction: column;
+    height: 218px;
+    margin-bottom: 42px;
+  }
+  .footer__copyright {
+    align-self: flex-start;
+    margin-left: 5%;
+
   }
 }
 @media screen and (max-width: 320px) {
