@@ -1,9 +1,9 @@
-.place__image {
+.places__image {
   grid-area: image;
   width: 100%;
 }
 @media screen and (max-width: 425px) {
-  .place__image {
+  .places__image {
     max-width: 100%;
     grid-area: image;
   }
