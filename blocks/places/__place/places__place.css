@@ -1,4 +1,4 @@
-.place{
+.places__place{
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-areas: 
@@ -9,7 +9,7 @@
   margin: 0 auto 80px;
 }
 @media screen and (max-width: 1024px) {
-  .place{
+  .places__place{
     display: grid;
     grid-template-columns: 45% 55%;
     gap: 32px;
@@ -17,7 +17,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .place{
+  .places__place{
     display: grid;
     grid-template-columns: 45% 48%;
     grid-template-areas: 
@@ -29,7 +29,7 @@
   }
 }
 @media screen and (max-width: 425px) {
-  .place{
+  .places__place{
     margin: 0 auto 80px;
     display: grid;
     grid-template-columns: repeat(1, 100%);
