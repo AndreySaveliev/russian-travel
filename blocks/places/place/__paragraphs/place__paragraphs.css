@@ -1,0 +1,4 @@
+@import url(./__paragraph/place__paragraph.css);
+.place__paragraphs{
+  grid-area: paragraph;
+}

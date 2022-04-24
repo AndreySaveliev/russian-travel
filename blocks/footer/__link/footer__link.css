@@ -1,0 +1,8 @@
+.footer__link:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer__link {
+  transition: 0.3s;
+}

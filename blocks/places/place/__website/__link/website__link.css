@@ -1,0 +1,29 @@
+.website__link {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.website__link:hover {
+  opacity: 0.3;
+  transition: 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .website__link {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .place__website_link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: underline;
+  }
+}
