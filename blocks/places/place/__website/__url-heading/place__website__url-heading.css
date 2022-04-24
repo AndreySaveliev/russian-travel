@@ -1,4 +1,4 @@
-.place__website_url-heading {
+.place__website__url-heading {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 12px;
@@ -7,13 +7,13 @@
   color: #aaa;
 }
 @media screen and (max-width: 768px) {
-  .place__website_url-headin {
+  .place__website__url-headin {
     font-size: 1rem;
     line-height: 12px;
   }
 }
 @media screen and (max-width: 425px) {
-  .place__website_url-headin {
+  .place__website__url-headin {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 12px;
