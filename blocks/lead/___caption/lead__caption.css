@@ -1,4 +1,4 @@
-.lead__image_cap {
+.lead__caption {
   width: 984px;
   margin: 8px auto;
   font-family: 'Inter';
@@ -9,19 +9,19 @@
   color: #fff;
 }
 @media screen and (max-width: 1024px) {
-  .lead__image_cap {
+  .lead__caption {
     width: 90%;
     margin: 8px 0 0 24px;
   }
 }
 @media screen and (max-width: 768px) {
-  .lead__image_cap {
+  .lead__caption {
     width: 158px;
     margin: 8px 0 0 24px;
   }
 }
 @media screen and (max-width: 425px) {
-  .lead__image_cap {
+  .lead__caption {
     margin-left: 16px;
     width: 90%;
   }
