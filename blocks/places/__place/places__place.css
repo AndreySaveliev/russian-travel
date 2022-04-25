@@ -24,7 +24,7 @@
     "title website"
     "image paragraph"
     ". paragraph-bottom";
-    gap: 48px;
+    gap: 28px;
     margin: 0 24px 80px 24px;
   }
 }
@@ -33,7 +33,7 @@
     margin: 0 auto 80px;
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: 3.5% 4.5% 30% 61%;
+    grid-template-rows: 3.5% 4.5% min-content min-content;
     grid-template-areas: 
     "title"
     "website"
