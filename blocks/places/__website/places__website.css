@@ -2,14 +2,15 @@
   grid-area: website;
   align-self: end;
   max-width: 456px;
+  margin-bottom: 8px;
  }
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1279px) {
   .places__website {
     max-width: 352px;
     margin: 0 0 16px 0;
   }
 }
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1023px) {
   .places__website {
     max-width: 352px;
     margin: 0 0 20px 0;
