@@ -3,29 +3,17 @@
   flex-direction: row;
   list-style: none;
   padding: 0;
+  margin: 0;
   justify-content: space-between;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #fff;
-  width: 150%;
+  width: fit-content;
 }
 @media screen and (max-width: 768px) {
   .footer__menu {
-    width: 50%;
-    margin-left: 5%;
-    flex-direction: column;
-    height: 218px;
-    margin-bottom: 42px;
+
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .footer__menu {
     flex-direction: column;
-    width: 50%;
-    height: 248px;
-    margin: 0 0 0 5%;
-    justify-content: space-between;
   }
 }

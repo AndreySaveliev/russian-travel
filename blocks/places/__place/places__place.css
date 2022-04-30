@@ -1,44 +1,39 @@
 .places__place{
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px auto;
+  grid-template-rows: repeat(2, min-content);
   grid-template-areas: 
   "title website"
-  "image paragraph"
-  ". paragraph-bottom";
-  gap: 40px;
+  "image paragraph";
+  gap: 48px;
   margin: 0 auto 80px;
+}
+.places__place:last-of-type {
+  margin-bottom: 0;
 }
 @media screen and (max-width: 1024px) {
   .places__place{
-    display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 440px auto;
     gap: 32px;
-    margin: 0 48px 80px;
   }
 }
 @media screen and (max-width: 768px) {
   .places__place{
-    display: grid;
-    grid-template-columns: 45% 48%;
-    grid-template-areas: 
-    "title website"
-    "image paragraph"
-    ". paragraph-bottom";
+    grid-template-columns: 340px auto;
     gap: 28px;
-    margin: 0 24px 80px 24px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .places__place{
-    margin: 0 auto 80px;
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    grid-template-rows: 3.5% 4.5% min-content min-content;
-    grid-template-areas: 
-    "title"
-    "website"
-    "image"
-    "paragraph";
+    max-width: 320px;
+    grid-template-columns: auto;
+    grid-template-columns: 320px;
     gap: 32px;
+    grid-template-areas: 
+  "title"
+  "website"
+  "image"
+  "paragraph";
+  margin: 0 auto 50px;
   }
 }
