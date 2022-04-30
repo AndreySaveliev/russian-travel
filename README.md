@@ -9,6 +9,6 @@
 Это ссылка на макет в [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=63326%3A0) . Фигма очень замороченная, и сначала я яя не полюбил ее
 , но со временем я вошел во вкус и понял ее приемущетсва.  
 ----  
-А вот ссылка на на [GHPages] (https://andreysaveliev.github.io/russian-travel/).
+А вот ссылка на на [GHPages](https://andreysaveliev.github.io/russian-travel/).
 
 
