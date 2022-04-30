@@ -6,11 +6,9 @@
   line-height: 16px;
   color: #fff;
   text-align: right;
-  padding: 0 48px 0 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .footer__copyright {
-
   }
 }
 @media screen and (max-width: 767px) {
